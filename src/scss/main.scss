@@ -1,0 +1,11 @@
+@import 'breakpoints';
+@import 'colors';
+@import 'fonts';
+@import 'resets';
+@import 'utils';
+
+body {
+    font-family: var(--ff-default);
+    font-size: var(--fs-400);
+    background-color: var(--clr-body-bgcolor);
+}
